@@ -1,0 +1,170 @@
+*
+   {
+      margin: 0;
+      padding: 0;
+   }
+   
+   body
+   {
+      font-family: monaco, "courier new", mono;
+      background: #fff;
+      color: #333;
+      font-size: 10pt;
+      padding: 40px;
+   }
+   
+   p, li
+   {
+      margin-bottom: 10pt;
+   }
+   
+   h2
+   {
+      font-size: 100%;
+      text-transform: uppercase;
+      margin-bottom: 10pt;
+      letter-spacing: 5pt;
+   }
+   
+   h3
+   {
+      font-size: 100%;
+      margin-bottom: 10pt;
+   }
+   
+   blockquote, .who
+   {
+      margin-left: 20pt;
+      margin-bottom: 10pt;
+   }
+   
+   a
+   {
+      color: #00979c;
+   }
+   
+   a:hover
+   {
+      color: white;
+      background: #00979c;
+   }
+
+   a:before 
+   {
+      content: "<";
+   }
+
+   a:after 
+   {
+      content: ">";
+   }
+   
+   ul, ol
+   {
+      margin-left: 30pt;
+      margin-bottom: 10pt;
+   }
+   
+   ul li
+   {
+      list-style-type: disc;
+   }
+
+   .hr 
+   {
+      background: transparent url(../img/dash.png) center top repeat;
+      overflow: hidden;
+      margin: 10px 0;
+   }
+
+   .hr hr
+   {
+      display: none;
+   }
+   
+   .hr--single
+   {
+      height: 1px;
+   }
+   
+   .hr--double
+   {
+      height: 3px;
+   }
+
+   .wrapper
+   {
+      max-width: 640px;
+      margin: 0 auto 0 auto;
+      text-align: left;
+   }
+
+   .title
+   {
+      text-transform: uppercase;
+      letter-spacing: 10pt;
+      text-align: center;
+      font-size: 110%;
+      margin-bottom: 40px;
+   }
+   
+   .title a
+   {
+      text-decoration: none;
+   }
+   
+   .desc
+   {
+      margin: 0 20pt 10pt 20pt;
+   }
+
+   .paging
+   {
+      text-align: center;
+   }
+   
+   .date, .perm
+   {
+      text-align: right;
+   }
+   
+   
+   .label
+   {
+      white-space: no-wrap;
+      padding-right: 10pt;
+      vertical-align: top;
+   }
+   
+   .line
+   {
+      padding-bottom: 10pt;
+   }
+   
+   .caption
+   {
+      margin-bottom: 10pt;
+   }
+   
+   .halo
+   {
+      padding: 5px;
+      border: 1px solid #0f0;
+   }
+   
+   .fleft
+   {
+      float: left; 
+      text-align: left;
+   }
+   
+   .fright
+   {
+      float: right; 
+      text-align: right;
+   }
+
+   ol.notes li.note img.avatar
+   {
+      display: none;
+   }

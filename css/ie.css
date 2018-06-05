@@ -1,0 +1,8 @@
+body
+{
+  text-align: center;
+}
+.posts, .post, .paging, .credit
+{
+  height: 1%;
+}
